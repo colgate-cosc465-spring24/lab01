@@ -1,0 +1,12 @@
+{
+    "Internet Protocol" : ["network layer", "protocol"],
+    "Transmission Control Protocol" : ["transport layer", "protocol"],
+    "User Datagram Protocol" : ["transport layer", "protocol"],
+    "Virtual Private Network" : ["network layer"],
+    "Open Shortest Path First" : ["network layer", "protocol", "routing"],
+    "Border Gateway Protocol" : ["network layer", "protocol", "routing"],
+    "Domain Name System" : ["network layer", "protocol"],
+    "Dynamic Host Configuration Protocol" : ["network layer", "protocol"],
+    "Network Address Translation" : ["network layer"],
+    "Hypertext Transfer Protocol" : ["application layer", "protocol"]
+}
