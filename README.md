@@ -25,15 +25,15 @@ After you have installed VS Code:
     ![Screenshot of Remote Development icon in VS Code](https://microsoft.github.io/vscode-remote-release/images/remote-dev-status-bar.png)
 
 4. In the command palette at the top of the VS Code window, select `Connect to Host...`, then `Add new SSH Host`. 
-5. Fill in the command `ssh YOU@tigers.cs.colgate.edu`, **replacing `YOU` with your CS username** (**NOT** your Colgate username) 
+5. Fill in the command `ssh YOU@TIGER.cs.colgate.edu`, **replacing `YOU` with your CS username** (**NOT** your Colgate username) and **replacing `TIGER` with `caspian`, `bengal`, `javan`, or `malayan`**
 6. When asked which SSH configuration file to update, select the file located in your user directory (usually the first file in the list).
 
 To connect to the servers:
 1. Click on the opposing arrows icon, in the lower-left corner of your VS Code window. 
-2. Choose `Connect to Host...`, then select `tigers.cs.colgate.edu`. 
-3. If prompted, select `Continue` to connect to `tigers.cs.colgate.edu` with fingerprint `SHA256:Fx96G/IqfDhj3vXjsVW3DQMRkcS9CYKgUJGFJoWcJ8Q`
+2. Choose `Connect to Host...`, then select `TIGER.cs.colgate.edu` (where `TIGER` will be the name of the server you chose)
+3. If prompted, select `Continue` to connect to the server with fingerprint `SHA256:Fx96G/IqfDhj3vXjsVW3DQMRkcS9CYKgUJGFJoWcJ8Q`
 4. Enter your CS password.
-5. After you are connected, `SSH: tigers.cs.colgate.edu` will appear after the opposing arrows icon in the lower-left of your VS Code window.
+5. After you are connected, `SSH: TIGER.cs.colgate.edu` will appear after the opposing arrows icon in the lower-left of your VS Code window.
 
 For additional information and help with the VS Code SSH remote editing capability, click the opposing arrows icon in the lower left, then choose the menu option `Remote-SSH: Help`.
 
@@ -130,6 +130,5 @@ If there is time remaining in lab (or to get more practice after lab), continue 
 
 **👨🏻‍💻 TODO:** Your program doesn't have to be limited to networking. Create your own JSON file with terms and keywords for a different category. Modify the call to `load` in `main` in `references.py` to load your custom JSON file instead. Better yet, modify argument parser code at the beginning of `main` to include an optional command-line parameter for specifying which JSON file to load.
 
-## Submission instructions
-1. Commit and push your code to GitHub
-2. Fill-out [this Google form](https://forms.gle/XWb71PSum18ZAfjo6)
+## Self-assessment
+The self-assessment for this lab will be available on Moodle after 5pm on Thursday, January 25. Please complete the self-assessment by 11pm on Monday, January 29.
